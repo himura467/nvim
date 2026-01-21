@@ -2,6 +2,8 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 vim.opt.clipboard = 'unnamedplus'
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
