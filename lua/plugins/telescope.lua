@@ -9,6 +9,7 @@ return {
     { '<leader>fg', '<cmd>Telescope live_grep<cr>', mode = 'n', desc = 'Telescope live grep' },
     { '<leader>fb', '<cmd>Telescope buffers<cr>', mode = 'n', desc = 'Telescope buffers' },
     { '<leader>fh', '<cmd>Telescope help_tags<cr>', mode = 'n', desc = 'Telescope help tags' },
+    { '<leader>gs', '<cmd>Telescope git_status<cr>', mode = 'n', desc = 'Telescope git status' },
   },
   opts = {
     extensions = {
